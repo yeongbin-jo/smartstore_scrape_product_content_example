@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "smartstore"
+version = "0.1.0"
+description = ""
+authors = ["CHIDA <iam.yeongbin.jo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+pylab-sdk = "^1.7.2"
+orjson = "^3.9.13"
+parsel = "^1.8.1"
+lxml = "^5.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
